@@ -1,0 +1,126 @@
+@media screen and (max-width:414px){
+header{
+  flex-direction: column;
+  align-items: center;
+}
+nav ul{
+  padding:10px;
+  flex-direction: column;
+}
+nav ul li{
+  border-bottom: 1px #ccc solid;
+}
+#slide{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-position-x: -600px;
+}
+#infoslide{
+  color:white;
+  background-color:rgba(255, 254, 254, 0.5);
+}
+#btn_transparente{
+  margin-top: 20px;
+}
+#informacion{
+  flex-direction: column;
+}
+#caracteristicas{
+  width: 100%;
+}
+#fototecnico{
+  width: 100%;
+}
+#caracteristicas h2{
+  font-size: 20px;
+}
+#servicios{
+  flex-direction: column;
+}
+#servicios article{
+  width: 100%;
+  margin-bottom: 25px;
+  border: 1px #ccc solid;
+}
+#circulo{
+  flex-direction: column;
+}
+#derecha{
+  width: 90%;
+  margin:auto;
+  text-align: center;
+}
+#izquierda{
+  width: 90%;
+  margin:auto;
+  text-align: center;
+}
+#reparaciones{
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+#reparaciones figure{
+  width: 100%;
+}
+#inforeparaciones{
+  width: 100%;
+  padding: 20px;
+}
+.uno{
+  padding: 10px;
+}
+#precios{
+  flex-direction: column;
+  align-items: center;
+}
+.uno{
+  margin-bottom:20px;
+  width: 90%;
+}
+.oferta{
+  padding: 0;
+  width: 45%;
+}
+.caract{
+  width: 55%;
+}
+#fotos{
+  flex-direction: column;
+}
+#fotos figure{
+  width: 100%;
+}
+#invisible{
+  display: none;
+}
+#elementoformulario{
+  width: 100%;
+}
+#clientes{
+  flex-direction: column;
+  justify-content: center;
+}
+#clientes figure{
+  width: 200px;
+  margin: auto;
+}
+#clientes figure img{
+  width: 100%;
+}
+#contenedormapa{
+  flex-direction: column;
+  align-items: center;
+}
+#infomapa{
+  width: 100%;
+  padding: 10px;
+}
+iframe{
+  width: 100%;
+  height: 300px;
+}
+footer #azul{
+  font-size: 20px;
+}
+}
